@@ -1,11 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-import React from 'react'
+import './App.css'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import NavBar from './components/NavBar/NavBar'
 import HomePage from './HomePage/HomePage'
 import WorkoutsPage from './WorkoutsPage/WorkoutsPage'
 import QuestsPage from './QuestsPage/QuestsPage'
